@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 pylib2 = pd.read_csv('pylib2.csv')
 pylib_dict = {}
 for i in np.arange(pylib2.shape[0]):
